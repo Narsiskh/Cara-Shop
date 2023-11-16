@@ -1,7 +1,39 @@
 @import "../assets/variables"
+@import "../assets/main"
 
 .header
   padding: 20px 80px
   background: #E3E6F3
   z-index: 999
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06)
+
+  #navbar
+    list-style: none
+    padding: 0 20px
+    position: relative
+
+    a
+      font-size: 16px
+      font-weight: 600
+      color: #1a1a1a
+      text-decoration: none
+      transition: 0.3s ease
+
+      a:hover, a.active
+        color: $secondaryColor
+
+      a.active::after
+        content: ""
+        width: 30%
+        height: 2px
+        background: $secondaryColor
+        position: absolute
+        bottom: -4px
+        left: 20px
+
+      i
+        font-size: 16px
+        font-weight: 600
+        color: #1a1a1a
+        text-decoration: none
+        transition: 0.3s ease

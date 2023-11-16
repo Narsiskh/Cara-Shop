@@ -192,7 +192,6 @@
   <section id="product2" class="section-p1">
     <h2>New Arrivals</h2>
     <p>Summer Collection New Morden Design</p>
-
     <div class="pro-container d-flex justify-content-between flex-wrap pt-20">
       <div class="pro position-relative">
         <img src="../img/products/n1.jpg">
@@ -363,19 +362,6 @@
       <h3>New Trendy Prints</h3>
     </div>
   </section>
-
-  <section id="newsletter" class="section-p1 d-flex justify-content-between align-items-center mb-50">
-    <div class="newstext">
-      <h4>Sign Up For Newsletters</h4>
-      <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
-    </div>
-    <div class="form d-flex justify-content-end">
-      <input type="text" placeholder="Your email address">
-      <button class="normal">Sign Up</button>
-    </div>
-  </section>
-
-
 </template>
 
 <style src="../assets/home.sass" scoped lang="sass"></style>
