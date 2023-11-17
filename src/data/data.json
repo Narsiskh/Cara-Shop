@@ -5,15 +5,8 @@
     "brand": "adidas",
     "name": "Hawaiian Shirt",
     "price": "$139",
-    "product": [
-      {
-        "id": 1,
-        "img": "../img/products/f1.jpg",
-        "type": "Home / Shirt",
-        "price": "$139",
-        "details": "The Hawaiian Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
-      }
-    ]
+    "type": "Home / Shirt",
+    "details": "The Hawaiian Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
   },
   {
     "id": 2,
@@ -21,15 +14,8 @@
     "brand": "adidas",
     "name": "Hawaiian Shirt",
     "price": "$139",
-    "product": [
-      {
-        "id": 2,
-        "img": "../img/products/f2.jpg",
-        "type": "Home / Shirt",
-        "price": "$139",
-        "details": "The Hawaiian Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
-      }
-    ]
+    "type": "Home / Shirt",
+    "details": "The Hawaiian Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
   },
   {
     "id": 3,
@@ -37,15 +23,8 @@
     "brand": "adidas",
     "name": "Hawaiian Shirt",
     "price": "$139",
-    "product": [
-      {
-        "id": 3,
-        "img": "../img/products/f3.jpg",
-        "type": "Home / Shirt",
-        "price": "$139",
-        "details": "The Hawaiian Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
-      }
-    ]
+    "type": "Home / Shirt",
+    "details": "The Hawaiian Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
   },
   {
     "id": 4,
@@ -53,15 +32,8 @@
     "brand": "adidas",
     "name": "Hawaiian Shirt",
     "price": "$139",
-    "product": [
-      {
-        "id": 4,
-        "img": "../img/products/f4.jpg",
-        "type": "Home / Shirt",
-        "price": "$139",
-        "details": "The Hawaiian Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
-      }
-    ]
+    "type": "Home / Shirt",
+    "details": "The Hawaiian Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
   },
   {
     "id": 5,
@@ -69,15 +41,8 @@
     "brand": "adidas",
     "name": "Hawaiian Shirt",
     "price": "$139",
-    "product": [
-      {
-        "id": 5,
-        "img": "../img/products/f5.jpg",
-        "type": "Home / Shirt",
-        "price": "$139",
-        "details": "The Hawaiian Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
-      }
-    ]
+    "type": "Home / Shirt",
+    "details": "The Hawaiian Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
   },
   {
     "id": 6,
@@ -85,15 +50,8 @@
     "brand": "adidas",
     "name": "Bicolor Shirt",
     "price": "$200",
-    "product": [
-      {
-        "id": 6,
-        "img": "../img/products/f6.jpg",
-        "type": "Home / Shirt",
-        "price": "200",
-        "details": "The Bicolor Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
-      }
-    ]
+    "type": "Home / Shirt",
+    "details": "The Bicolor Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
   },
   {
     "id": 7,
@@ -101,15 +59,8 @@
     "brand": "adidas",
     "name": "Wide Pants",
     "price": "$320",
-    "product": [
-      {
-        "id": 7,
-        "img": "../img/products/f7.jpg",
-        "type": "Home / Pants",
-        "price": "$320",
-        "details": "The Wide Linen Pants is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
-      }
-    ]
+    "type": "Home / Pants",
+    "details": "The Wide Linen Pants is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
   },
   {
     "id": 8,
@@ -117,15 +68,8 @@
     "brand": "adidas",
     "name": "Catty Blouse",
     "price": "$115",
-    "product": [
-      {
-        "id": 8,
-        "img": "../img/products/f8.jpg",
-        "type": "Home / Blouse",
-        "cost": "$115",
-        "details": "The Catty Blouse is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
-      }
-    ]
+    "type": "Home / Blouse",
+    "details": "The Catty Blouse is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
   },
   {
     "id": 9,
@@ -133,15 +77,8 @@
     "brand": "adidas",
     "name": "Linen Shirt",
     "price": "$123",
-    "product": [
-      {
-        "id": 9,
-        "img": "../img/products/n1.jpg",
-        "type": "Home / Shirt",
-        "cost": "$123",
-        "details": "The Linen Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
-      }
-    ]
+    "type": "Home / Shirt",
+    "details": "The Linen Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
   },
   {
     "id": 10,
@@ -149,15 +86,8 @@
     "brand": "adidas",
     "name": "Linen Checked Shirt",
     "price": "$133",
-    "product": [
-      {
-        "id": 10,
-        "img": "../img/products/n2.jpg",
-        "type": "Home / Shirt",
-        "cost": "$133",
-        "details": "The Linen Checked Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
-      }
-    ]
+    "type": "Home / Shirt",
+    "details": "The Linen Checked Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
   },
   {
     "id": 11,
@@ -165,15 +95,8 @@
     "brand": "adidas",
     "name": "Linen Shirt",
     "price": "$123",
-    "product": [
-      {
-        "id": 11,
-        "img": "../img/products/n3.jpg",
-        "type": "Home / Shirt",
-        "cost": "$123",
-        "details": "The White Linen Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
-      }
-    ]
+    "type": "Home / Shirt",
+    "details": "The White Linen Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
   },
   {
     "id": 12,
@@ -181,15 +104,8 @@
     "brand": "adidas",
     "name": "Polo Shirt",
     "price": "$115",
-    "product": [
-      {
-        "id": 12,
-        "img": "../img/products/n4.jpg",
-        "type": "Home / Shirt",
-        "cost": "$115",
-        "details": "The Polo Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
-      }
-    ]
+    "type": "Home / Shirt",
+    "details": "The Polo Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
   },
   {
     "id": 13,
@@ -197,15 +113,8 @@
     "brand": "adidas",
     "name": "Denim Shirt",
     "price": "$150",
-    "product": [
-      {
-        "id": 13,
-        "img": "../img/products/n5.jpg",
-        "type": "Home / Shirt",
-        "cost": "$150",
-        "details": "The Denim Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
-      }
-    ]
+    "type": "Home / Shirt",
+    "details": "The Denim Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
   },
   {
     "id": 14,
@@ -213,15 +122,8 @@
     "brand": "adidas",
     "name": "Cotton Short",
     "price": "$260",
-    "product": [
-      {
-        "id": 14,
-        "img": "../img/products/n6.jpg",
-        "type": "Home / Short",
-        "cost": "$260",
-        "details": "The Cotton Short is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
-      }
-    ]
+    "type": "Home / Short",
+    "details": "The Cotton Short is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
   },
   {
     "id": 15,
@@ -229,15 +131,8 @@
     "brand": "adidas",
     "name": "Epaulette Shirt",
     "price": "$200",
-    "product": [
-      {
-        "id": 15,
-        "img": "../img/products/n7.jpg",
-        "type": "Home / Shirt",
-        "cost": "$200",
-        "details": "The Epaulette Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
-      }
-    ]
+    "type": "Home / Shirt",
+    "details": "The Epaulette Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
   },
   {
     "id": 16,
@@ -245,14 +140,7 @@
     "brand": "adidas",
     "name": "Polo Shirt",
     "price": "$152",
-    "product": [
-      {
-        "id": 16,
-        "img": "../img/products/n8.jpg",
-        "type": "Home / Shirt",
-        "cost": "$152",
-        "details": "The Polo Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
-      }
-    ]
+    "type": "Home / Shirt",
+    "details": "The Polo Shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package."
   }
 ]
