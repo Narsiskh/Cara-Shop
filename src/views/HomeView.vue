@@ -1,5 +1,6 @@
 <script setup>
-
+import StarRating from 'vue-star-rating'
+import products from '../data/data.json'
 </script>
 
 <template>
@@ -51,11 +52,12 @@
           <span>adidas</span>
           <h5>Cartoon Astronaut T-Shirts</h5>
           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <star-rating   :increment="0.5"
+                           :max-rating="5"
+                           inactive-color="gray"
+                           active-color="rgb(243, 181, 25)"
+                           :star-size="15">
+            </star-rating>
           </div>
           <h4>$78</h4>
         </div>
@@ -68,11 +70,12 @@
           <span>adidas</span>
           <h5>Cartoon Astronaut T-Shirts</h5>
           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <star-rating   :increment="0.5"
+                           :max-rating="5"
+                           inactive-color="gray"
+                           active-color="rgb(243, 181, 25)"
+                           :star-size="15">
+            </star-rating>
           </div>
           <h4>$78</h4>
         </div>
@@ -85,11 +88,12 @@
           <span>adidas</span>
           <h5>Cartoon Astronaut T-Shirts</h5>
           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <star-rating   :increment="0.5"
+                           :max-rating="5"
+                           inactive-color="gray"
+                           active-color="rgb(243, 181, 25)"
+                           :star-size="15">
+            </star-rating>
           </div>
           <h4>$78</h4>
         </div>
@@ -102,11 +106,12 @@
           <span>adidas</span>
           <h5>Cartoon Astronaut T-Shirts</h5>
           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <star-rating   :increment="0.5"
+                           :max-rating="5"
+                           inactive-color="gray"
+                           active-color="rgb(243, 181, 25)"
+                           :star-size="15">
+            </star-rating>
           </div>
           <h4>$78</h4>
         </div>
@@ -119,11 +124,12 @@
           <span>adidas</span>
           <h5>Cartoon Astronaut T-Shirts</h5>
           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <star-rating   :increment="0.5"
+                           :max-rating="5"
+                           inactive-color="gray"
+                           active-color="rgb(243, 181, 25)"
+                           :star-size="15">
+            </star-rating>
           </div>
           <h4>$78</h4>
         </div>
@@ -136,11 +142,12 @@
           <span>adidas</span>
           <h5>Cartoon Astronaut T-Shirts</h5>
           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <star-rating   :increment="0.5"
+                           :max-rating="5"
+                           inactive-color="gray"
+                           active-color="rgb(243, 181, 25)"
+                           :star-size="15">
+            </star-rating>
           </div>
           <h4>$78</h4>
         </div>
@@ -153,11 +160,12 @@
           <span>adidas</span>
           <h5>Cartoon Astronaut T-Shirts</h5>
           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <star-rating   :increment="0.5"
+                           :max-rating="5"
+                           inactive-color="gray"
+                           active-color="rgb(243, 181, 25)"
+                           :star-size="15">
+            </star-rating>
           </div>
           <h4>$78</h4>
         </div>
@@ -170,11 +178,12 @@
           <span>adidas</span>
           <h5>Cartoon Astronaut T-Shirts</h5>
           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <star-rating   :increment="0.5"
+                           :max-rating="5"
+                           inactive-color="gray"
+                           active-color="rgb(243, 181, 25)"
+                           :star-size="15">
+            </star-rating>
           </div>
           <h4>$78</h4>
         </div>
@@ -199,11 +208,12 @@
           <span>adidas</span>
           <h5>Cartoon Astronaut T-Shirts</h5>
           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <star-rating   :increment="0.5"
+                           :max-rating="5"
+                           inactive-color="gray"
+                           active-color="rgb(243, 181, 25)"
+                           :star-size="15">
+            </star-rating>
           </div>
           <h4>$78</h4>
         </div>
@@ -216,11 +226,12 @@
           <span>adidas</span>
           <h5>Cartoon Astronaut T-Shirts</h5>
           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <star-rating   :increment="0.5"
+                           :max-rating="5"
+                           inactive-color="gray"
+                           active-color="rgb(243, 181, 25)"
+                           :star-size="15">
+            </star-rating>
           </div>
           <h4>$78</h4>
         </div>
@@ -233,11 +244,12 @@
           <span>adidas</span>
           <h5>Cartoon Astronaut T-Shirts</h5>
           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <star-rating   :increment="0.5"
+                           :max-rating="5"
+                           inactive-color="gray"
+                           active-color="rgb(243, 181, 25)"
+                           :star-size="15">
+            </star-rating>
           </div>
           <h4>$78</h4>
         </div>
@@ -250,11 +262,12 @@
           <span>adidas</span>
           <h5>Cartoon Astronaut T-Shirts</h5>
           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <star-rating   :increment="0.5"
+                           :max-rating="5"
+                           inactive-color="gray"
+                           active-color="rgb(243, 181, 25)"
+                           :star-size="15">
+            </star-rating>
           </div>
           <h4>$78</h4>
         </div>
@@ -267,11 +280,12 @@
           <span>adidas</span>
           <h5>Cartoon Astronaut T-Shirts</h5>
           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <star-rating   :increment="0.5"
+                           :max-rating="5"
+                           inactive-color="gray"
+                           active-color="rgb(243, 181, 25)"
+                           :star-size="15">
+            </star-rating>
           </div>
           <h4>$78</h4>
         </div>
@@ -284,11 +298,12 @@
           <span>adidas</span>
           <h5>Cartoon Astronaut T-Shirts</h5>
           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <star-rating   :increment="0.5"
+                           :max-rating="5"
+                           inactive-color="gray"
+                           active-color="rgb(243, 181, 25)"
+                           :star-size="15">
+            </star-rating>
           </div>
           <h4>$78</h4>
         </div>
@@ -301,11 +316,12 @@
           <span>adidas</span>
           <h5>Cartoon Astronaut T-Shirts</h5>
           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <star-rating   :increment="0.5"
+                           :max-rating="5"
+                           inactive-color="gray"
+                           active-color="rgb(243, 181, 25)"
+                           :star-size="15">
+            </star-rating>
           </div>
           <h4>$78</h4>
         </div>
@@ -316,13 +332,13 @@
         <img src="../img/products/n8.jpg">
         <div class="des">
           <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
           <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <star-rating   :increment="0.5"
+                           :max-rating="5"
+                           inactive-color="gray"
+                           active-color="rgb(243, 181, 25)"
+                           :star-size="15">
+            </star-rating>
           </div>
           <h4>$78</h4>
         </div>
