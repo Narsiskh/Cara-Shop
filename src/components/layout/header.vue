@@ -1,6 +1,4 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
   <section id="header" class="d-flex align-items-center justify-content-between position-sticky top-0 left-0">
@@ -21,4 +19,4 @@
   </section>
 </template>
 
-<style src="../../assets/headerStyle.sass" scoped lang="sass"></style>
+<style src="../../assets/header.sass" scoped lang="sass"></style>

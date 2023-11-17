@@ -2,14 +2,15 @@
 @import "../assets/main"
 
 #newsletter
+  > *
+    width: 100%
+
+#newsletter
   background-image: url("../img/banner/b14.png")
   background-repeat: no-repeat
   background-position: 20% 30%
   background-color: #041e42
   padding: 45px
-
-  & > *
-    width: 100%
 
   h4
     font-size: 22px
@@ -69,22 +70,27 @@
   .follow
     margin-top: 20px
 
-    i
-      color: #465b52
+    .icons
       padding-right: 4px
+      color: #465b52
       cursor: pointer
 
-      &:hover
-        color: $secondaryColor
+      .icon:not(:first-child)
+        padding-left: 8px
 
-.install
-  .rows
-    img
-      border: 1px solid $secondaryColor
-      border-radius: 6px
 
-  img
-    margin: 10px 0 15px 0
+        &:hover
+          color: $secondaryColor
+
+.app
+  border: 1px solid $secondaryColor
+  border-radius: 6px
+
+.apple
+  margin-right: 5px
+
+img
+  margin: 10px 0 15px 0
 
 .copyright
   text-align: center

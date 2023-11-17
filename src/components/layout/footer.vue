@@ -24,11 +24,11 @@
       <div class="follow">
         <h4>Follow Us</h4>
         <div class="icons">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-pinterest-p"></i>
-          <i class="fab fa-youtube"></i>
+          <i class="icon fab fa-facebook-f"></i>
+          <i class="icon fab fa-twitter"></i>
+          <i class="icon fab fa-instagram"></i>
+          <i class="icon fab fa-pinterest-p"></i>
+          <i class="icon fab fa-youtube"></i>
         </div>
       </div>
     </div>
@@ -55,17 +55,17 @@
       <h4>Install App</h4>
       <p>From App Store or Google Play</p>
       <div class="rows">
-        <img src="../../img/pay/app.jpg" alt="">
-        <img src="../../img/pay/play.jpg" alt="">
+        <img class="app apple" src="../../img/pay/app.jpg" alt="">
+        <img class="app" src="../../img/pay/play.jpg" alt="">
       </div>
       <p>Secured Payment Gateways</p>
       <img src="../../img/pay/pay.png" alt="">
     </div>
 
     <div class="copyright w-100">
-      <p>&copy 2021; Tech2 etc - HTML CSS Ecommerce Template</p>
+      <p>&copy; 2023; Tech2 etc - HTML CSS Ecommerce Template</p>
     </div>
   </footer>
 </template>
 
-<style src="../../assets/footerStyle.sass" scoped lang="sass"></style>
+<style src="../../assets/footer.sass" scoped lang="sass"></style>

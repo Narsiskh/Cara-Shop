@@ -1,7 +1,7 @@
 @import "../assets/variables"
 @import "../assets/main"
 
-.header
+#header
   padding: 20px 80px
   background: #E3E6F3
   z-index: 999
@@ -18,8 +18,9 @@
       color: #1a1a1a
       text-decoration: none
       transition: 0.3s ease
+      padding: 21px
 
-      a:hover, a.active
+      &:hover, a.active
         color: $secondaryColor
 
       a.active::after
