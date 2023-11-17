@@ -1,9 +1,9 @@
 <script setup>
-import StarRating from "vue-star-rating";
+import StarRating from "vue-star-rating"
 </script>
 
 <template>
-  <section id="page-header" class="d-flex flex-column justify-content-center w-100">
+  <section id="page-header" class="shop-header d-flex flex-column justify-content-center w-100">
     <h2>#stayhome</h2>
     <p>Save more with coupons & up to 70% off!</p>
   </section>

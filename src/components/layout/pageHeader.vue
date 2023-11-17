@@ -8,10 +8,10 @@ import {RouterLink} from "vue-router"
     <nav id="navbar" class="d-flex align-items-center justify-content-center m-0">
       <RouterLink active-class="active" to="/">Home</RouterLink>
       <RouterLink active-class="active" to="/shop">Shop</RouterLink>
-      <RouterLink active-class="active" to="/">Blog</RouterLink>
-      <RouterLink active-class="active" to="/">About</RouterLink>
-      <RouterLink active-class="active" to="/">Contact</RouterLink>
-      <RouterLink active-class="active" to="/" id="lg-bag"><i class="bi bi-bag"></i></RouterLink>
+      <RouterLink active-class="active" to="/blog">Blog</RouterLink>
+      <RouterLink active-class="active" to="/about">About</RouterLink>
+      <RouterLink active-class="active" to="/contact">Contact</RouterLink>
+      <RouterLink active-class="active" to="/cart" id="lg-bag"><i class="bi bi-bag"></i></RouterLink>
       <RouterLink active-class="active" to="/" href="#" id="close" class="d-none"><i class="bi bi-x-lg"></i></RouterLink>
     </nav>
     <div id="mobile" class="d-none align-items-center">
