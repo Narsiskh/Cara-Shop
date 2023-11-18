@@ -32,7 +32,7 @@
       </tr>
       <tr>
         <td><a href="#"><i class="bi bi-x-circle"></i></a></td>
-        <td><img src="../img/products/f3.jpg"></td>
+        <td><img src="../img/products/f3.jpg" class="image"></td>
         <td>Cartoon Astronaut T-Shirts</td>
         <td>$118.19</td>
         <td><input type="number" value="1"></td>

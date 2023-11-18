@@ -1,6 +1,6 @@
 <script setup>
 import StarRating from 'vue-star-rating'
-import products from '../data/data.json'
+
 </script>
 
 <template>
@@ -47,7 +47,7 @@ import products from '../data/data.json'
 
     <div class="pro-container d-flex justify-content-between flex-wrap pt-20">
       <div class="pro position-relative">
-        <img src="../img/products/f1.jpg">
+        <img src="../img/products/f1.jpg" alt="">
         <div class="des">
           <span>adidas</span>
           <h5>Cartoon Astronaut T-Shirts</h5>

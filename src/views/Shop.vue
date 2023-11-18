@@ -9,7 +9,7 @@ import StarRating from "vue-star-rating"
   </section>
 
   <section id="product1" class="section-p1">
-    <div class="pro-container d-flex justify-content-between flex-wrap pt-20">
+    <div class="pro-container d-flex justify-content-between flex-wrap pt-20" >
       <div class="pro position-relative" @click="window.location.href = 'sproduct.html'">
         <img src="../img/products/f1.jpg">
         <div class="des">
@@ -27,6 +27,7 @@ import StarRating from "vue-star-rating"
         </div>
         <a href="#"><i class="bi bi-cart3 cart"></i></a>
       </div>
+
 
       <div class="pro position-relative" @click="window.location.href = 'sproduct.html'">
         <img src="../img/products/f2.jpg">
@@ -297,7 +298,6 @@ import StarRating from "vue-star-rating"
         <a href="#"><i class="bi bi-cart3 cart"></i></a>
       </div>
     </div>
-
   </section>
 
   <section id="pagination" class="section-p1">

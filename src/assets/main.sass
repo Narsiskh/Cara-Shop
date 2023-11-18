@@ -35,6 +35,9 @@ p
 .section-p1
   margin: 40px 80px
 
+  @media (max-width: 799px)
+    padding: 40px 40px
+
 .section-m1
   margin: 40px 0
 
@@ -146,6 +149,64 @@ button.white
         padding-top: 7px
         font-size: 15px
         font-weight: 900
+        color: $secondaryColor
+
+    .cart
+      width: 40px
+      height: 40px
+      line-height: 40px
+      border-radius: 50px
+      background-color: #e8f6ea
+      font-weight: 500
+      color: $secondaryColor
+      border: 1px solid $light
+      position: absolute
+      bottom: 20px
+      right: 10px
+
+#product2
+  text-align: center
+
+  .pro
+    width: 23%
+    min-width: 250px
+    padding: 10px 12px
+    border-radius: 25px
+    border: 1px solid $light
+    cursor: pointer
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02)
+    margin: 15px 0
+    transition: 0.2s ease
+
+    &:hover
+      box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06)
+
+    img
+      width: 100%
+      border-radius: 20px
+
+    .des
+      text-align: start
+      padding: 10px 0
+
+      span
+        color: #606063
+        font-size: 12px
+
+      h5
+        padding-top: 7px
+        color: #1a1a1a
+        font-size: 14px
+
+      .star
+        font-size: 12px
+        color: rgb(243, 181, 25)
+        padding-top: 10px
+
+      h4
+        padding-top: 7px
+        font-size: 15px
+        font-weight: 700
         color: $secondaryColor
 
     .cart
