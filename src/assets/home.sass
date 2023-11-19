@@ -13,6 +13,10 @@
     padding: 0 80px
     background-position: top 30% right 30%
 
+  @media (max-width: 477px)
+    padding: 0 20px
+    background-position: 55%
+
   h1
     color: $secondaryColor
 
@@ -33,6 +37,13 @@
   background-image: url("../img/banner/b2.png")
   background-size: cover
   background-position: center
+
+  @media (max-width: 799px)
+    height: 20vh
+    padding: 0 40px
+
+  @media (max-width: 477px)
+    height: 40vh
 
   h4
     color: $white
@@ -61,12 +72,22 @@
     background-position: center
     padding: 30px
 
+    @media (max-width: 799px)
+      min-width: 100%
+      height: 30vh
+
+    @media (max-width: 477px)
+      height: 40vh
+
     &:hover button
       background: $secondaryColor
       border: 1px solid $secondaryColor
 
   .banner-box2
     background-image: url("../img/banner/b10.jpg")
+
+    @media (max-width: 477px)
+      margin-top: 20px
 
   h4
     color: $white
@@ -88,12 +109,21 @@
   padding: 0 80px
   padding-bottom: 5px
 
+  @media (max-width: 477px)
+    padding: 0 20px
+
   .banner-box
     height: 30vh
     min-width: 30%
     background-image: url("../img/banner/b7.jpg")
     background-size: cover
     background-position: center
+
+    @media (max-width: 799px)
+      width: 28%
+
+    @media (max-width: 477px)
+      width: 100%
 
   .banner-box2
     background-image: url("../img/banner/b4.jpg")

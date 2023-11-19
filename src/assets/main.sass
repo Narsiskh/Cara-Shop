@@ -9,15 +9,24 @@
 body
   width: 100%
 
+  @media (max-width: 477px)
+    width: 100%
+
 h1
   font-size: 50px
   line-height: 64px
   color: $primaryColor
 
+  @media (max-width: 477px)
+    font-size: 38px
+
 h2
   font-size: 46px
   line-height: 54px
   color: $primaryColor
+
+  @media (max-width: 477px)
+    font-size: 32px
 
 h4
   font-size: 20px
@@ -37,6 +46,9 @@ p
 
   @media (max-width: 799px)
     padding: 40px 40px
+
+  @media (max-width: 477px)
+    padding: 10px 30px
 
 .section-m1
   margin: 40px 0
@@ -72,39 +84,50 @@ button.white
   h2, p
     color: $white
 
-.fe-box
-  width: 180px
-  text-align: center
-  padding: 25px 15px
-  box-shadow: 20px 20px 34px rgba(0, 0, 0,0.03)
-  border: 1px solid $light
-  border-radius: 4px
-  margin: 15px 0
+#feature
+  @media (max-width: 799px)
+    justify-content: center
 
-  &:hover
-    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1)
-
-  h6
-    padding: 9px 8px 6px 8px
-    line-height: 1
+  .fe-box
+    width: 180px
+    text-align: center
+    padding: 25px 15px
+    box-shadow: 20px 20px 34px rgba(0, 0, 0,0.03)
+    border: 1px solid $light
     border-radius: 4px
-    color: $secondaryColor
-    background-color: #ffcfdc
+    margin: 15px 0
 
-  &:nth-child(2) h6
-    background-color: #cdebbc
+    @media (max-width: 799px)
+      margin: 15px 15px
 
-  &:nth-child(3) h6
-    background-color: #d1e8f2
+    @media (max-width: 477px)
+      width: 155px
+      margin: 0 15px 0
 
-  &:nth-child(4) h6
-    background-color: #cdd4f8
+    &:hover
+      box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1)
 
-  &:nth-child(5) h6
-    background-color: #f6dbf6
+    h6
+      padding: 9px 8px 6px 8px
+      line-height: 1
+      border-radius: 4px
+      color: $secondaryColor
+      background-color: #ffcfdc
 
-  &:nth-child(6) h6
-    background-color: #fff2e5
+    &:nth-child(2) h6
+      background-color: #cdebbc
+
+    &:nth-child(3) h6
+      background-color: #d1e8f2
+
+    &:nth-child(4) h6
+      background-color: #cdd4f8
+
+    &:nth-child(5) h6
+      background-color: #f6dbf6
+
+    &:nth-child(6) h6
+      background-color: #fff2e5
 
 #product1
   text-align: center
@@ -119,6 +142,11 @@ button.white
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02)
     margin: 15px 0
     transition: 0.2s ease
+
+
+
+    @media (max-width: 477px)
+      width: 100%
 
     &:hover
       box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06)

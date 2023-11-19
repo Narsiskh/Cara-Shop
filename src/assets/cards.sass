@@ -4,9 +4,17 @@
 #pro-details
   margin-top: 20px
 
+  @media (max-width: 477px)
+    display: flex
+    flex-direction: column
+
   .single-pro-image
     width: 40%
     margin-right: 50px
+
+    @media (max-width: 477px)
+      width: 100%
+      margin-right: 0
 
     .small-img-col
       flex-basis: 24%
@@ -15,6 +23,9 @@
   .single-pro-details
     width: 50%
     padding-top: 30px
+
+    @media (max-width: 477px)
+      width: 100%
 
     h4
       padding: 40px 0 20px 0

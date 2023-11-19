@@ -7,8 +7,19 @@
 #blog
   padding: 150px 150px 0 150px
 
+  @media (max-width: 477px)
+    padding: 100px 20px 0 20px
+
   .blog-box
     padding-bottom: 90px
+
+    @media (max-width: 477px)
+      display: flex
+      flex-direction: column
+      align-items: flex-start
+      width: 100%
+      position: relative
+      padding-bottom: 90px
 
     h1
       top: -40px
@@ -21,16 +32,26 @@
     .blog-img
       margin-right: 40px
 
+      @media (max-width: 477px)
+        width: 100%
+        margin-right: 0
+        margin-bottom: 30px
+
       img
         height: 470px
         object-fit: cover
 
-    .blog-details a
-      color: $dark
-      font-size: 11px
-      font-weight: 700
-      text-decoration: none
-      transition: 0.3s
+
+    .blog-details
+      @media (max-width: 477px)
+        width: 100%
+
+      a
+        color: $dark
+        font-size: 11px
+        font-weight: 700
+        text-decoration: none
+        transition: 0.3s
 
       &::after
         content: ""

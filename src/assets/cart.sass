@@ -55,28 +55,39 @@
     tbody td
       font-size: 13px
 
-#coupon
-  margin-bottom: 30px
+#cart-add
+  @media (max-width: 477px)
+    flex-direction: column
 
-  h3
-    padding-bottom: 15px
+  #coupon
+    margin-bottom: 30px
 
-  input
-    padding: 10px 20px
-    outline: none
-    width: 60%
-    margin-right: 10px
-    border: 1px solid #e2e9e1
+    @media (max-width: 477px)
+      width: 100%
 
-  button
-    background-color: $secondaryColor
-    color: $white
-    padding: 12px 20px
+    h3
+      padding-bottom: 15px
+
+    input
+      padding: 10px 20px
+      outline: none
+      width: 60%
+      margin-right: 10px
+      border: 1px solid #e2e9e1
+
+    button
+      background-color: $secondaryColor
+      color: $white
+      padding: 12px 20px
 
 #subtotal
   margin-bottom: 30px
   border: 1px solid #e2e9e1
   padding: 30px
+
+  @media (max-width: 477px)
+    width: 100%
+    padding: 20px
 
   h3
     padding-bottom: 15px
