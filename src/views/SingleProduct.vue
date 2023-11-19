@@ -1,42 +1,33 @@
 <script setup>
-import {useRoute, RouterView} from "vue-router"
-import {ref, onBeforeMount} from "vue"
-import products from "../data/data.json"
 
-const product = ref(null)
-const route = useRoute()
-const {id} = route.params
-
-onBeforeMount(() => {
-  product.value = products.find(p => p.id === parseInt(id))
-})
 </script>
 
 <template>
-  <section id="pro-details" class="section-p1 d-flex">
+  <section id="prodetails" class="section-p1 d-flex">
     <div class="single-pro-image">
-      <img :src="product['img']" id="MainImg" class="w-100" alt="">
+      <img src="../img/products/f1.jpg" id="MainImg" class="w-100" alt="">
 
       <div class="small-img-group d-flex justify-content-between">
         <div class="small-img-col">
-          <img src="../img/products/f1.jpg" class="small-img w-100" alt="">
+          <img src="../img/products/f1.jpg" class="small-img w-100">
         </div>
         <div class="small-img-col">
-          <img src="../img/products/f2.jpg" class="small-img w-100" alt="">
+          <img src="../img/products/f2.jpg" class="small-img w-100">
         </div>
         <div class="small-img-col">
-          <img src="../img/products/f3.jpg" class="small-img w-100" alt="">
+          <img src="../img/products/f3.jpg" class="small-img w-100">
         </div>
         <div class="small-img-col">
-          <img src="../img/products/f4.jpg" class="small-img w-100" alt="">
+          <img src="../img/products/f4.jpg" class="small-img w-100">
         </div>
       </div>
+
     </div>
 
     <div class="single-pro-details">
-      <h6>{{product['type']}}</h6>
-      <h4>{{product['name']}}</h4>
-      <h2>{{product['price']}}</h2>
+      <h6>Home / T-Shirt</h6>
+      <h4>Man`s Fashion T-Shirt</h4>
+      <h2>$139.00</h2>
       <select class="d-block">
         <option>Select Size</option>
         <option>XL</option>
@@ -47,13 +38,13 @@ onBeforeMount(() => {
       <input type="number" value="1">
       <button class="normal">Add To Cart</button>
       <h4>Product Details</h4>
-      <span>{{product['details']}}</span>
+      <span>The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package.</span>
     </div>
   </section>
 
   <section id="product2" class="section-p1">
     <h2>Featured Products</h2>
-    <p>Summer Collection New Design</p>
+    <p>Summer Collection New Morden Design</p>
 
     <div class="pro-container d-flex justify-content-between flex-wrap pt-20">
       <div class="pro position-relative">
@@ -124,8 +115,10 @@ onBeforeMount(() => {
         <a href="#"><i class="bi bi-cart3 cart"></i></a>
       </div>
     </div>
+
   </section>
-  <RouterView />
 </template>
 
-<style src="../assets/cards.sass" scoped lang="sass"></style>
+<style scoped lang="sass">
+
+</style>

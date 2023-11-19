@@ -1,5 +1,9 @@
 <script setup>
 import StarRating from "vue-star-rating"
+import {ref} from "vue";
+import productData from "../data/data.json"
+
+const product = ref(productData)
 </script>
 
 <template>
@@ -10,11 +14,11 @@ import StarRating from "vue-star-rating"
 
   <section id="product1" class="section-p1">
     <div class="pro-container d-flex justify-content-between flex-wrap pt-20" >
-      <div class="pro position-relative" @click="window.location.href = 'sproduct.html'">
-        <img src="../img/products/f1.jpg">
+      <div class="pro position-relative">
+        <img :src="product.img" alt="">
         <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
+          <span>{{ product['brand'] }}</span>
+          <h5>{{ product['name'] }}</h5>
           <div class="star">
             <star-rating   :increment="0.5"
                            :max-rating="5"
@@ -23,13 +27,13 @@ import StarRating from "vue-star-rating"
                            :star-size="15">
             </star-rating>
           </div>
-          <h4>$78</h4>
+          <h4>{{ product['price'] }}</h4>
         </div>
         <a href="#"><i class="bi bi-cart3 cart"></i></a>
       </div>
 
 
-      <div class="pro position-relative" @click="window.location.href = 'sproduct.html'">
+      <!-- <div class="pro position-relative" @click="window.location.href = 'sproduct.html'">
         <img src="../img/products/f2.jpg">
         <div class="des">
           <span>adidas</span>
@@ -296,7 +300,7 @@ import StarRating from "vue-star-rating"
           <h4>$78</h4>
         </div>
         <a href="#"><i class="bi bi-cart3 cart"></i></a>
-      </div>
+      </div>-->
     </div>
   </section>
 
