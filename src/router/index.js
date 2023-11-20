@@ -6,6 +6,7 @@ import Blog from "@/views/Blog.vue";
 import About from "@/views/About.vue";
 import Contact from "@/views/Contact.vue";
 import Cart from "@/views/Cart.vue";
+import SingleProduct from "@/views/SingleProduct.vue";
 
 
 
@@ -42,6 +43,11 @@ const router = createRouter({
             name: "cart",
             component: Cart
         },
+        {
+            path: "/products/:id",
+            name: "products",
+            component: SingleProduct
+        }
     ]
 })
 

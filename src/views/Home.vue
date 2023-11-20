@@ -1,6 +1,10 @@
 <script setup>
-import StarRating from 'vue-star-rating'
+import ProductCard from "@/components/ProductCard.vue"
+import products from "../data/data.json"
+import {computed} from "vue"
 
+const featuredProducts = computed(() => products.slice(0, 8))
+const newArrivals = computed(() => products.slice(8, 16))
 </script>
 
 <template>
@@ -39,154 +43,16 @@ import StarRating from 'vue-star-rating'
     </div>
   </section>
 
-  <section id="product1" class="section-p1">
+  <section class="products section-p1">
     <h2>Featured Products</h2>
-    <p>Summer Collection New Morden Design</p>
+    <p>Summer Collection New Design</p>
 
     <div class="pro-container d-flex justify-content-between flex-wrap pt-20">
-      <div class="pro position-relative">
-        <img src="../img/products/f1.jpg" alt="">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
-          <div class="star">
-            <star-rating   :increment="0.5"
-                           :max-rating="5"
-                           inactive-color="gray"
-                           active-color="rgb(243, 181, 25)"
-                           :star-size="15">
-            </star-rating>
-          </div>
-          <h4>$78</h4>
-        </div>
-        <a href="#"><i class="bi bi-cart3 cart"></i></a>
-      </div>
-
-      <div class="pro position-relative">
-        <img src="../img/products/f2.jpg">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
-          <div class="star">
-            <star-rating   :increment="0.5"
-                           :max-rating="5"
-                           inactive-color="gray"
-                           active-color="rgb(243, 181, 25)"
-                           :star-size="15">
-            </star-rating>
-          </div>
-          <h4>$78</h4>
-        </div>
-        <a href="#"><i class="bi bi-cart3 cart"></i></a>
-      </div>
-
-      <div class="pro position-relative">
-        <img src="../img/products/f3.jpg">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
-          <div class="star">
-            <star-rating   :increment="0.5"
-                           :max-rating="5"
-                           inactive-color="gray"
-                           active-color="rgb(243, 181, 25)"
-                           :star-size="15">
-            </star-rating>
-          </div>
-          <h4>$78</h4>
-        </div>
-        <a href="#"><i class="bi bi-cart3 cart"></i></a>
-      </div>
-
-      <div class="pro position-relative">
-        <img src="../img/products/f4.jpg">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
-          <div class="star">
-            <star-rating   :increment="0.5"
-                           :max-rating="5"
-                           inactive-color="gray"
-                           active-color="rgb(243, 181, 25)"
-                           :star-size="15">
-            </star-rating>
-          </div>
-          <h4>$78</h4>
-        </div>
-        <a href="#"><i class="bi bi-cart3 cart"></i></a>
-      </div>
-
-      <div class="pro position-relative">
-        <img src="../img/products/f5.jpg">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
-          <div class="star">
-            <star-rating   :increment="0.5"
-                           :max-rating="5"
-                           inactive-color="gray"
-                           active-color="rgb(243, 181, 25)"
-                           :star-size="15">
-            </star-rating>
-          </div>
-          <h4>$78</h4>
-        </div>
-        <a href="#"><i class="bi bi-cart3 cart"></i></a>
-      </div>
-
-      <div class="pro position-relative">
-        <img src="../img/products/f6.jpg">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
-          <div class="star">
-            <star-rating   :increment="0.5"
-                           :max-rating="5"
-                           inactive-color="gray"
-                           active-color="rgb(243, 181, 25)"
-                           :star-size="15">
-            </star-rating>
-          </div>
-          <h4>$78</h4>
-        </div>
-        <a href="#"><i class="bi bi-cart3 cart"></i></a>
-      </div>
-
-      <div class="pro position-relative">
-        <img src="../img/products/f7.jpg">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
-          <div class="star">
-            <star-rating   :increment="0.5"
-                           :max-rating="5"
-                           inactive-color="gray"
-                           active-color="rgb(243, 181, 25)"
-                           :star-size="15">
-            </star-rating>
-          </div>
-          <h4>$78</h4>
-        </div>
-        <a href="#"><i class="bi bi-cart3 cart"></i></a>
-      </div>
-
-      <div class="pro position-relative">
-        <img src="../img/products/f8.jpg">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
-          <div class="star">
-            <star-rating   :increment="0.5"
-                           :max-rating="5"
-                           inactive-color="gray"
-                           active-color="rgb(243, 181, 25)"
-                           :star-size="15">
-            </star-rating>
-          </div>
-          <h4>$78</h4>
-        </div>
-        <a href="#"><i class="bi bi-cart3 cart"></i></a>
-      </div>
+        <ProductCard
+            v-for="item in featuredProducts"
+            :key='item.id' :product="item"
+            @click="$router.push(`/products/${item.id}`)"
+        />
     </div>
   </section>
 
@@ -196,154 +62,16 @@ import StarRating from 'vue-star-rating'
     <button class="normal">Explore More</button>
   </section>
 
-  <section id="product2" class="section-p1">
+  <section class="products section-p1">
     <h2>New Arrivals</h2>
-    <p>Summer Collection New Morden Design</p>
+    <p>Summer Collection New Design</p>
     <div class="pro-container d-flex justify-content-between flex-wrap pt-20">
-      <div class="pro position-relative">
-        <img src="../img/products/n1.jpg">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
-          <div class="star">
-            <star-rating   :increment="0.5"
-                           :max-rating="5"
-                           inactive-color="gray"
-                           active-color="rgb(243, 181, 25)"
-                           :star-size="15">
-            </star-rating>
-          </div>
-          <h4>$78</h4>
-        </div>
-        <a href="#"><i class="bi bi-cart3 cart"></i></a>
-      </div>
-
-      <div class="pro position-relative">
-        <img src="../img/products/n2.jpg">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
-          <div class="star">
-            <star-rating   :increment="0.5"
-                           :max-rating="5"
-                           inactive-color="gray"
-                           active-color="rgb(243, 181, 25)"
-                           :star-size="15">
-            </star-rating>
-          </div>
-          <h4>$78</h4>
-        </div>
-        <a href="#"><i class="bi bi-cart3 cart"></i></a>
-      </div>
-
-      <div class="pro position-relative">
-        <img src="../img/products/n3.jpg">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
-          <div class="star">
-            <star-rating   :increment="0.5"
-                           :max-rating="5"
-                           inactive-color="gray"
-                           active-color="rgb(243, 181, 25)"
-                           :star-size="15">
-            </star-rating>
-          </div>
-          <h4>$78</h4>
-        </div>
-        <a href="#"><i class="bi bi-cart3 cart"></i></a>
-      </div>
-
-      <div class="pro position-relative">
-        <img src="../img/products/n4.jpg">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
-          <div class="star">
-            <star-rating   :increment="0.5"
-                           :max-rating="5"
-                           inactive-color="gray"
-                           active-color="rgb(243, 181, 25)"
-                           :star-size="15">
-            </star-rating>
-          </div>
-          <h4>$78</h4>
-        </div>
-        <a href="#"><i class="bi bi-cart3 cart"></i></a>
-      </div>
-
-      <div class="pro position-relative">
-        <img src="../img/products/n5.jpg">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
-          <div class="star">
-            <star-rating   :increment="0.5"
-                           :max-rating="5"
-                           inactive-color="gray"
-                           active-color="rgb(243, 181, 25)"
-                           :star-size="15">
-            </star-rating>
-          </div>
-          <h4>$78</h4>
-        </div>
-        <a href="#"><i class="bi bi-cart3 cart"></i></a>
-      </div>
-
-      <div class="pro position-relative">
-        <img src="../img/products/n6.jpg">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
-          <div class="star">
-            <star-rating   :increment="0.5"
-                           :max-rating="5"
-                           inactive-color="gray"
-                           active-color="rgb(243, 181, 25)"
-                           :star-size="15">
-            </star-rating>
-          </div>
-          <h4>$78</h4>
-        </div>
-        <a href="#"><i class="bi bi-cart3 cart"></i></a>
-      </div>
-
-      <div class="pro position-relative">
-        <img src="../img/products/n7.jpg">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
-          <div class="star">
-            <star-rating   :increment="0.5"
-                           :max-rating="5"
-                           inactive-color="gray"
-                           active-color="rgb(243, 181, 25)"
-                           :star-size="15">
-            </star-rating>
-          </div>
-          <h4>$78</h4>
-        </div>
-        <a href="#"><i class="bi bi-cart3 cart"></i></a>
-      </div>
-
-      <div class="pro position-relative">
-        <img src="../img/products/n8.jpg">
-        <div class="des">
-          <span>adidas</span>
-          <div class="star">
-            <star-rating   :increment="0.5"
-                           :max-rating="5"
-                           inactive-color="gray"
-                           active-color="rgb(243, 181, 25)"
-                           :star-size="15">
-            </star-rating>
-          </div>
-          <h4>$78</h4>
-        </div>
-        <a href="#"><i class="bi bi-cart3 cart"></i></a>
-      </div>
+        <ProductCard
+            v-for="item in newArrivals"
+            :key='item.id' :product="item"
+            @click="$router.push(`/products/${item.id}`)"
+        />
     </div>
-
   </section>
 
   <section id="sm-banner" class="section-p1 d-flex flex-wrap justify-content-between">

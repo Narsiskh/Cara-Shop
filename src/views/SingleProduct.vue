@@ -1,33 +1,46 @@
 <script setup>
+import products from "../data/data.json"
+import {ref, onBeforeMount, computed} from "vue"
+import {useRoute} from "vue-router";
+import ProductCard from "@/components/ProductCard.vue";
 
+const trendyProducts = computed(() => products.slice(8, 12))
+const product = ref(null)
+const route = useRoute()
+
+const productId = parseInt(route.params.id.toString())
+
+onBeforeMount(() => {
+  product.value = products.find(item => item.id === parseInt(productId))
+})
 </script>
 
 <template>
-  <section id="prodetails" class="section-p1 d-flex">
+  <section id="pro-details" class="section-p1 d-flex">
     <div class="single-pro-image">
       <img src="../img/products/f1.jpg" id="MainImg" class="w-100" alt="">
 
       <div class="small-img-group d-flex justify-content-between">
         <div class="small-img-col">
-          <img src="../img/products/f1.jpg" class="small-img w-100">
+          <img src="../img/products/f1.jpg" class="small-img w-100" alt="">
         </div>
         <div class="small-img-col">
-          <img src="../img/products/f2.jpg" class="small-img w-100">
+          <img src="../img/products/f2.jpg" class="small-img w-100" alt="">
         </div>
         <div class="small-img-col">
-          <img src="../img/products/f3.jpg" class="small-img w-100">
+          <img src="../img/products/f3.jpg" class="small-img w-100" alt="">
         </div>
         <div class="small-img-col">
-          <img src="../img/products/f4.jpg" class="small-img w-100">
+          <img src="../img/products/f4.jpg" class="small-img w-100" alt="">
         </div>
       </div>
 
     </div>
 
     <div class="single-pro-details">
-      <h6>Home / T-Shirt</h6>
-      <h4>Man`s Fashion T-Shirt</h4>
-      <h2>$139.00</h2>
+      <h6>{{product['type']}}</h6>
+      <h4>{{product['name']}}</h4>
+      <h2>{{product['price']}}</h2>
       <select class="d-block">
         <option>Select Size</option>
         <option>XL</option>
@@ -38,87 +51,23 @@
       <input type="number" value="1">
       <button class="normal">Add To Cart</button>
       <h4>Product Details</h4>
-      <span>The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 oz. per sq. yd. fabric constructed from 100% cotton, this classic fit preshrunk jersey knit provides unmatched comfort with each wear. Featuring a taped neck and shoulder, and a seamless double-needle collar, and available in a range of colors, it offers it all in the ultimate head-turing package.</span>
+      <span>{{product['details']}}</span>
     </div>
   </section>
 
-  <section id="product2" class="section-p1">
-    <h2>Featured Products</h2>
-    <p>Summer Collection New Morden Design</p>
+  <section class="products section-p1">
+    <h2>Trendy Products</h2>
+    <p>Summer Collection New Design</p>
 
     <div class="pro-container d-flex justify-content-between flex-wrap pt-20">
-      <div class="pro position-relative">
-        <img src="../img/products/n1.jpg">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>$78</h4>
-        </div>
-        <a href="#"><i class="bi bi-cart3 cart"></i></a>
-      </div>
-
-      <div class="pro position-relative">
-        <img src="../img/products/n2.jpg">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>$78</h4>
-        </div>
-        <a href="#"><i class="bi bi-cart3 cart"></i></a>
-      </div>
-
-      <div class="pro position-relative">
-        <img src="../img/products/n3.jpg">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>$78</h4>
-        </div>
-        <a href="#"><i class="bi bi-cart3 cart"></i></a>
-      </div>
-
-      <div class="pro position-relative">
-        <img src="../img/products/n4.jpg">
-        <div class="des">
-          <span>adidas</span>
-          <h5>Cartoon Astronaut T-Shirts</h5>
-          <div class="star">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <h4>$78</h4>
-        </div>
-        <a href="#"><i class="bi bi-cart3 cart"></i></a>
-      </div>
+      <ProductCard
+          v-for="item in trendyProducts"
+          :key='item.id' :product="item"
+          @click="$router.push(`/products/${item.id}`)"
+      />
     </div>
 
   </section>
 </template>
 
-<style scoped lang="sass">
-
-</style>
+<style src="../assets/single-product.sass" scoped lang="sass"></style>
